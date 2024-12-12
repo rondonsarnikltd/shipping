@@ -1,9 +1,7 @@
 (ns experiments
   (:require [app.web.interface :as web]))
 
-(def server (web/start))
-
 (comment
-  
+  (def server (web/start))
   (web/stop server)
   )
